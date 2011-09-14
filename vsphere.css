@@ -1,0 +1,32 @@
+body,
+html {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: #ccc;
+}
+
+* {
+   font-family: Verdana;
+   font-size: 10pt;
+}
+
+#loading {
+   font-size: 3em;
+}
+
+#result-grid {
+   width: 100%;
+   height: 100%;
+}
+
+div.slick-row.dim {
+   color: #999;
+}
+
+div.slick-row:hover,
+div.slick-row:hover * {
+   background-color: #cc0000 ! important;
+   color: white;
+}
